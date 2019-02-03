@@ -1,14 +1,12 @@
-This repository contains my code for learning C++. 
+This repository contains the code I write as I learn C++. 
 
 Reasons for learning C++:
-Having worked with relatively high-level programming languages (Python, MATLAB), I wanted to learn more about the underlying mechanics or how my computer programmes were interacting with the underlying machine. 
+Having worked only with relatively high-level programming languages so far in my career (Python, MATLAB), I wanted to learn more about the underlying mechanics of how these programmes were interacting with the underlying computer. I decided C++ would be a good language to learn because it teaches me a lot about what is going on 'under the hood', how memory allocation and management works, how algorithms are designed, and what the data structures and functions I had been using until this point were actually doing. I also hope that learning these things will help me write faster, more efficient code and help me when learning other programming languages in the future. 
 
+The subfolders within this repository contain the different ways I have been learning C++. 
 
-1. I wanted to learn more about how computer programming works: how software interacts with the underlying processor, how memory is stored, how computations are done, etc.
-2. I wanted to speed up my numerical computation.
+Tutorials - for an introduction to how C++ works, I have been following the excellent and in depth online tutorials found at https://www.learncpp.com/
 
-There are a variety of different ways I am doing this. 
+DataStructures - to practice writing in C++, I am learning how to implement some of the most common data structures (Linked Lists, Heaps, Stacks, ...)
 
-Tutorials - I have been following the excellent and in depth online tutorials found at https://www.learncpp.com/
-
-DataStructures - I am applying my 
+SortingAlgorithms - for more practice, I am also learning how to implement various common sorting algorithsm in C++ (Selection, Insertion, Bubble, Quick, ...)
