@@ -14,3 +14,6 @@ To practice writing in C++, I am learning how to implement some of the most comm
 
 ### SortingAlgorithms
 For more practice, I am also learning how to implement various common sorting algorithsm in C++ (Selection, Insertion, Bubble, Quick, ...)
+
+## Useful resources
+* [Big-O Complexity Cheat Sheet](http://bigocheatsheet.com/) - list of common data structures, sorting algorithms, and their complexity
