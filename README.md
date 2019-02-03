@@ -17,3 +17,4 @@ For more practice, I am also learning how to implement various common sorting al
 
 ## Useful resources
 * [Big-O Complexity Cheat Sheet](http://bigocheatsheet.com/) - list of common data structures, sorting algorithms, and their complexity
+* [C++ Tutorial](https://www.learncpp.com/) - Excellent thorough introduction to C++
