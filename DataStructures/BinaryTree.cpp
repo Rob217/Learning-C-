@@ -14,7 +14,7 @@ public:
     BinaryTree(): head {NULL}
     {}
 
-    void Add(int val)
+    void Push(int val)
     {
         Node *temp = new Node;
         temp->val = val;
@@ -52,19 +52,43 @@ public:
 
     void InOrderTraversal(Node *current)
     {
+        bool firstCall = false;
         if (current == NULL)
+        {
+            firstCall = true;
             current = head;
+        }
         // check left node
         if (current->small)
             InOrderTraversal(current->small);
         // print current node
-        std::cout << current->val << "\n";
+        std::cout << current->val << " ";
         // check right node
         if (current->big)
             InOrderTraversal(current->big);
+        if (firstCall)
+            std::cout << "\n";
     }
 
-
+    void PreOrderTraversal(Node *current)
+    {
+        bool firstCall = false;
+        if (current == NULL)
+        {
+            firstCall = true;
+            current = head;
+        }
+        // print current node
+        std::cout << current -> val << " ";
+        // check left node
+        if (current->small)
+            PreOrderTraversal(current->small);
+        // check right node
+        if (current->big)
+            PreOrderTraversal(current->big);
+        if (firstCall)
+            std::cout << "\n";
+    }
 };
 
 
@@ -81,11 +105,12 @@ int main()
     // In order: 1 - 2 - 3 - 4 - 5
     // Pre order: 2 - 1 - 4 - 3 - 5
     //
-    b.Add(2);
-    b.Add(4);
-    b.Add(1);
-    b.Add(5);
-    b.Add(3);
+    b.Push(2);
+    b.Push(4);
+    b.Push(1);
+    b.Push(5);
+    b.Push(3);
     b.InOrderTraversal(NULL);
+    b.PreOrderTraversal(NULL);
     return 0;
 }
